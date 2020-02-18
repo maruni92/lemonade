@@ -1,0 +1,39 @@
+*{
+    transition: all 2s;
+}
+
+
+body{
+    background:rgba(157, 39, 180, 0.788);
+    background-image: url('https://ih1.redbubble.net/image.599663244.0427/flat,750x1000,075,f.jpg');
+}
+
+.row{
+    border:2px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+}
+
+.column{
+    background:rgba(218, 218, 85, 0.918);
+    width: 150px;
+    height: 150px;
+    margin:20px;
+
+}
+
+#bio .column{
+    width: 30%;
+    background-color:rgba(233, 181, 226, 0.856);
+
+}
+
+.column:hover{
+    transform:rotate(420deg);
+    background-color:hotpink;
+}
+
+#bio .column:hover{
+    background-color: seagreen;
+}
+
